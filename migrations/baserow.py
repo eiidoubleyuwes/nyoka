@@ -1,7 +1,6 @@
 import boto3
 from botocore.exceptions import ClientError
 from datetime import datetime
-import json
 
 # Initialize DynamoDB client
 dynamodb = boto3.resource('dynamodb')
