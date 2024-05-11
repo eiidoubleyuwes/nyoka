@@ -6,9 +6,9 @@ from datetime import datetime
 dynamodb = boto3.resource('dynamodb')
 
 def lambda_handler(event, context):
-    """
-    Lambda function that handles Baserow updates and reflects them in a DynamoDB table.
-    """
+
+    #Lambda function that handles Baserow updates and reflects them in a DynamoDB table.
+    
     table_name = 'student'
     table = dynamodb.Table(table_name)
 
