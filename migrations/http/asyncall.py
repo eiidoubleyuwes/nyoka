@@ -1,9 +1,7 @@
-#This will authenticate the user using a database key and return the row data from the database
-
 import os
 import json
 import boto3
-import requests
+from botocore.vendored import requests
 
 def lambda_handler(event, context):
     # Fetch data from the database
